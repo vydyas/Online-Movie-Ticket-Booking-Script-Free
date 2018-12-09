@@ -11,6 +11,10 @@ Online Movie Ticket Booking System (Theatre booking system) is a website to prov
 | SMS Integration  | Yes  |
 | SEO Friendly  | Yes  |
 
+# SEO Friendly
+![screen shot 2018-12-09 at 12 04 15 pm](https://user-images.githubusercontent.com/2999586/49694166-89389900-fbaa-11e8-9b64-3d7930176630.png)
+
+
 # Online movie ticket booking script #giveaway
 
 Before forking this repo I would like to clarify few things
