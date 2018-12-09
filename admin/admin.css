@@ -1,0 +1,24 @@
+.leftmenu {
+    background: #F3F3F3;
+    float: left;
+    width: 20%;
+}
+
+
+.rightcontent {
+   /* background: none repeat scroll 0 0 yellow;*/
+    float: left;
+    width: 80%;
+}
+
+
+.leftmenu li {
+    list-style: none outside none;
+    margin: 3px 0;
+    padding: 5px;
+    width: 94px;
+}
+
+.leftmenu li a { text-decoration: none; }
+
+.leftmenu li:hover { text-decoration: underline; }

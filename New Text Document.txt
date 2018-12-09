@@ -1,0 +1,10 @@
+<script type="text/javascript" src="js/jquery.js"></script>
+<script type="text/javascript">
+	$(function()
+	{
+       var a="siddhu pavan";
+       var mystr=a.split(" ");
+       var mystr = mystr.join('-');
+       alert(mystr);
+	});
+</script>

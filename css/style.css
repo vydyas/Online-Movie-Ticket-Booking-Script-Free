@@ -1,0 +1,233 @@
+body
+{ 
+	font-family:calibri;
+	margin:0px;
+	padding: 0px;
+}
+
+.bar{width: 100%;height: 4px ;background: #ed1c24}
+h1{
+    font-size: 60px;
+    color:#3399ff;
+}
+#submit,#submit_theatre
+{
+    background: #c00029;
+    border: solid 1px #c00029;
+    padding: 3px;
+    color: white;
+    width: 300px;
+    border-radius: 4px;
+    text-decoration: none;  
+    font-size: 15px;
+
+}
+#submit:hover,,#submit_theatre:hover
+{
+    background: #900314;
+    border: solid 1px #900314;
+    padding: 3px;
+    color: white;
+    border-radius: 4px;
+}
+    
+    .cf:before, .cf:after{
+      content:"";
+      display:table;
+    }
+    
+    .cf:after{
+      clear:both;
+    }
+
+    .cf{
+      zoom:1;
+    }
+
+    /*-------------------------------------*/	
+    
+    .form-wrapper 
+    {
+        width: 450px;
+        padding: 15px;
+        margin-top: 90px;
+        background: #444;
+        background: rgba(0,0,0,.2);
+    }
+    
+    .form-wrapper input 
+    {
+        width: 330px;
+        height: 40px;
+        padding: 10px 5px;
+        float: left;  
+        margin-left:10px;  
+        font: bold 15px 'lucida sans', 'trebuchet MS', 'Tahoma';
+        border: 0;
+        background: #eee;
+        -moz-border-radius: 3px 0 0 3px;
+        -webkit-border-radius: 3px 0 0 3px;
+        border-radius: 3px 0 0 3px;     
+
+    }
+    
+    .form-wrapper input:focus {
+        outline: 0;
+        background: #fff;
+        -moz-box-shadow: 0 0 2px rgba(0,0,0,.8) inset;
+        -webkit-box-shadow: 0 0 2px rgba(0,0,0,.8) inset;
+        box-shadow: 0 0 2px rgba(0,0,0,.8) inset;
+    }
+    
+    .form-wrapper input::-webkit-input-placeholder {
+       color: #999;
+       font-weight: normal;
+       font-style: italic;
+    }
+    
+    .form-wrapper input:-moz-placeholder {
+        color: #999;
+        font-weight: normal;
+        font-style: italic;
+    }
+    
+    .form-wrapper input:-ms-input-placeholder {
+        color: #999;
+        font-weight: normal;
+        font-style: italic;
+    }    
+    
+    .form-wrapper button 
+    {
+		overflow: visible;
+        position: relative;
+        float: right;
+        border: 0;
+        padding: 0;
+        cursor: pointer;
+        height: 40px;
+        width: 110px;
+        font: bold 15px/40px 'lucida sans', 'trebuchet MS', 'Tahoma';
+        color: #fff;
+        text-transform: uppercase;
+        background: #d83c3c;
+        -moz-border-radius: 0 3px 3px 0;
+        -webkit-border-radius: 0 3px 3px 0;
+        border-radius: 0 3px 3px 0;      
+        text-shadow: 0 -1px 0 rgba(0, 0 ,0, .3);
+    }   
+      
+    .form-wrapper button:hover{		
+        background: #e54040;
+    }	
+      
+    .form-wrapper button:active,
+    .form-wrapper button:focus{   
+        background: #c42f2f;    
+    }
+    
+    .form-wrapper button:before {
+        content: '';
+        position: absolute;
+        border-width: 8px 8px 8px 0;
+        border-style: solid solid solid none;
+        border-color: white #d83c3c white;
+        top: 12px;
+        left: -6px;
+    }
+    
+    .form-wrapper button:hover:before{
+        border-right-color: #e54040;
+    }
+    
+    .form-wrapper button:focus:before{
+        border-right-color: #c42f2f;
+    }    
+    
+    .form-wrapper button::-moz-focus-inner {
+        border: 0;
+        padding: 0;
+    }
+     #display
+{
+    margin-left:10px;
+    width: 73%;
+display:none;
+border:solid 1px white;
+overflow:hidden;
+}
+.display_box
+{
+padding:4px;
+border-top:solid 1px #dedede;
+color: white;
+height:30px;
+}
+.display_box:hover
+{
+background:#eeeeee;
+color: black;
+}
+.display_box a
+{
+    color: white;
+    text-decoration: none;
+    b
+}
+
+#movies_cinemachoodu
+{
+    background: #3399ff;
+    border:solid 1px #3399ff;
+    color:white;
+    padding:5px;
+    font-size: 15px
+}
+#theatres_cinemachoodu
+{
+    background: red;
+    border:solid 1px red;
+    color:white;
+    padding:5px;
+    font-size: 15px
+}
+table tr #menu{background: #eeeeee;padding: 10px;text-align: center;}
+    table tr #menu a{text-decoration: none;color: #333}
+    table tr #menu:hover{background: #bdbdbd;color: white}
+    #tt{display: none;}
+    a{text-decoration: underline;}
+
+#logo{margin-left:-370px}
+
+@media only screen and (max-width: 1024px){
+
+#fb{display: none;}
+#logo{margin-left:-380px;}
+
+}
+@media only screen and (max-width: 1200px){
+
+#fb{display: none;}
+#logo{margin-left:-380px;}
+
+}
+#ajax
+{
+    display: none;
+}
+ul li
+{
+    list-style-type: none;
+    position: relative;
+    display: inline-block;
+
+}
+ul li a img
+{
+    border:solid 2px white;
+}
+ul li a img:hover
+{
+    border:solid 2px red;
+    z-index: 1000;
+}

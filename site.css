@@ -1,0 +1,237 @@
+body {
+	margin: 0 auto;
+	padding: 0 auto;
+              font-size: 18px;
+	font-family: Calibri;
+ background: url(bg.jpg) no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+.container {
+    margin: 0 auto;
+    width: 100%;
+}
+
+header {
+	width: 100%;
+    margin: 0 auto;
+	float: left;
+}
+
+
+.header-content {
+	width: 1024px;
+	margin: 0 auto;
+}
+
+header .steps { float: right; }
+
+header .logo { float: left; }
+
+
+.indexform table {
+	margin: 20px auto;
+}
+
+.indexform table .itab {
+	width: 50%;
+	height: 30px;
+	cursor: pointer;
+	font-size: 18px;
+	text-align: center;
+	border: 1px solid #bdbdbd;
+	background: white;
+}
+
+.indexform table .itabsmall {
+	width: 10%;
+	cursor: pointer;
+	font-size: 18px;
+	text-align: center;
+	border: 1px solid #bdbdbd;
+}
+
+.indexform table .active {
+	border: 1px solid #bdbdbd;
+	background: white
+	color: #c00029;
+}
+
+.indexform table .inactive {
+	border: 1px solid #eee;
+    box-shadow: none;
+    background: rgba(225,225,225,0.3);
+    color: #fff;
+}
+
+.content-wrapper {
+	width: 1024px;
+	margin: 0 auto;
+	background: linear-gradient(#fff, #eee) repeat scroll 0 0 rgba(0, 0, 0, 0);
+	border-radius: 5px;
+	padding: 10px 0;
+	overflow: hidden;
+}
+
+.right-content {
+    float: right;
+    width: 715px;
+}
+
+.left-content {
+    float: left;
+}
+
+.listmovies { 
+	width: 100%;
+	border-collapse: collapse;
+	text-align: center;
+}
+
+.left-content > table {
+    width: 279px;
+}
+
+.left-content tr {
+    vertical-align: top;
+}
+
+.listmovie-wrapper {
+	padding: 5px;
+	margin: 5px;
+    border: 1px solid #999;
+	box-shadow: 2px 2px 2px #999;
+    border-radius: 6px;
+}
+
+.listmovie-wrapper a{
+	color: green;
+}
+
+.show-booking {
+	margin: 10px;
+    padding: 10px;
+	float: left;
+	border: 1px solid #fff;
+    border-radius: 5px;
+    box-shadow: 3px 7px 2px #666;
+}
+
+.show-booking > table {
+	margin: 15px 0;
+	float: left;
+}
+
+.seat-wrapper {
+	width: 1024px;
+	margin: 0 auto;
+	float: left;
+}
+
+.seat-arrangement {
+	width: 653px;
+	margin: 0 0 0 45px
+	float:left;
+}
+
+.buy { cursor: pointer; }
+
+#sign_up {
+    background: none repeat scroll 0 0 #fff;
+    border: 1px solid #666;
+    border-radius: 5px;
+    padding: 20px;
+    width: 300px;
+}
+
+
+#sign_up > span {
+    display: block;
+    float: right;
+	cursor: pointer;
+    font-size: 18px;
+    position: relative;
+    right: 0;
+    top: -19px;
+}
+
+.terms {
+    float: right;
+    margin: 0 200px 0 0;
+    text-align: justify;
+    width: 500px;
+}
+
+#pay { cursor: pointer; }
+
+#bookform > span {
+    display: block;
+    float: right;
+}
+
+.seat-arrangement > table {
+    margin: 0 auto;
+}
+
+.cart > table {
+    background: #fff;
+}
+
+.cart {
+    box-shadow: 2px 2px 2px #666;
+    right: 169px;
+    position: fixed;
+    top: 320px;
+}
+
+#printform input {
+    margin: 10px;
+    padding: 3px;
+}
+
+#printform {
+    background: none repeat scroll 0 0 #fff;
+    border: 1px solid #666;
+    border-radius: 11px;
+    box-shadow: 2px 2px 2px #000;
+    padding: 10px;
+}
+
+
+#printform1 {
+    background: none repeat scroll 0 0 #fff;
+    border: 1px solid #666;
+    border-radius: 11px;
+    box-shadow: 2px 2px 2px #000;
+    padding: 10px;
+}
+
+
+#printform > span {
+    display: block;
+    float: right;
+    font-size: 16px;
+    margin: 0 13px 0 0;
+}
+
+#printtckt
+{
+    border: solid 1px #0099cc;
+    background: #0099cc;
+    color: #fff;
+    font-size: 15px;
+    border-radius: 5px;
+    padding:5px;
+}
+#sendid
+{
+    border: solid 1px #99cc00;
+    background: #99cc00;
+    color: #fff;
+    border-radius: 5px;
+    font-size: 15px;
+    padding:5px;
+}

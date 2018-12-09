@@ -1,0 +1,275 @@
+body {
+	width: 100%;
+	margin: 0 auto;
+}
+
+container {
+	width: 100%;
+	background: gray;
+}
+
+.form-box {
+	background: none repeat scroll 0 0 #eaeaec;
+    border-radius: 5px;
+    height: 200px;
+    margin: 100px auto;
+    padding: 20px;
+    width: 400px;
+}
+
+form {
+	width: 300px;
+	height: 500px;
+	margin: 0 auto;
+}
+
+label {
+	width: 130px;
+	float: left;
+	margin: 8px 0;
+	display: inline-block;
+	font-family: verdana;
+	font-size: 13px;
+}
+
+input {
+	border: 1px solid #ccc;
+    border-radius: 3px;
+    float: left;
+    margin: 8px 0;
+    padding: 3px;
+    width: 150px;
+}
+
+input[type='submit'] {
+	background: #CCC;
+	cursor: pointer;
+}
+
+input[type='submit']:hover {
+	color: #FFF;
+	background: #666;
+}
+
+
+h3 {
+    font-family: verdana;
+    font-size: 14px;
+    margin: 0 auto;
+    text-align: center;
+    width: auto;
+}
+
+header {
+	width: 100%;
+	background: #3c8dbc;
+	float: left;
+}
+
+header ul {
+	width: 97%;
+}
+
+header ul li {
+	color: #fff;
+    float: left;
+    font-family: verdana;
+    font-size: 13px;
+    list-style: none outside none;
+    margin: 10px 2px;
+    padding: 5px 0;
+    text-align: center;
+    width: 100px;
+}
+
+header ul li a {
+	color: #fff;
+	text-decoration: none;
+}
+
+header ul li a:hover {
+	text-decoration: underline;
+}
+
+
+#rounded-corner
+{
+	font-family: "verdana";
+	font-size: 12px;
+	width: 100%;
+	text-align: left;
+	border-collapse: collapse;
+}
+#rounded-corner thead th.rounded-company
+{
+	background: #b9c9fe url('table-images/left.png') left -1px no-repeat;
+}
+#rounded-corner thead th.rounded-q4
+{
+	background: #b9c9fe url('table-images/right.png') right -1px no-repeat;
+}
+#rounded-corner th
+{
+	padding: 8px;
+	font-weight: normal;
+	font-size: 13px;
+	color: #039;
+	background: #b9c9fe;
+}
+#rounded-corner td
+{
+	padding: 8px;
+	background: #e8edff;
+	border-top: 1px solid #fff;
+	color: #669;
+}
+#rounded-corner tfoot td.rounded-foot-left
+{
+	background: #e8edff url('table-images/botleft.png') left bottom no-repeat;
+}
+#rounded-corner tfoot td.rounded-foot-right
+{
+	background: #e8edff url('table-images/botright.png') right bottom no-repeat;
+}
+#rounded-corner tbody tr:hover td
+{
+	background: #d0dafd;
+}
+
+#add > a {
+    display: inline-block;
+    text-decoration: none;
+}
+
+
+#add {
+    background: none repeat scroll 0 0 #f9f9f9;
+    border: 1px solid;
+    border-radius: 5px;
+    float: left;
+    margin: 10px;
+    padding: 10px;
+    vertical-align: middle;
+}
+
+span {
+	display: inline-block;
+    float: left;
+    font-family: verdana;
+    font-size: 20px;
+    margin: 0;
+}
+
+img {
+    margin: 0 0 0 7px;
+    width: 19px;
+}
+
+form span {
+    display: block;
+    margin: 20px;
+}
+
+#content {
+    background: linear-gradient(#3c8dbc, #beccfc) repeat scroll 0 0 rgba(0, 0, 0, 0);
+    border-radius: 5px;
+    color: #fff;
+    float: left;
+    margin: 3% 33%;
+    padding: 10px;
+    width: 35%;
+}
+
+#content form {
+    float: left;
+    width: 50%;
+}
+
+#content table {
+    font-size: 14px;
+	font-family: verdana;
+}
+
+.leftmenu {
+    background: #F3F3F3;
+    float: left;
+    width: 20%;
+}
+
+
+.rightcontent {
+   /* background: none repeat scroll 0 0 yellow;*/
+    float: left;
+    width: 80%;
+}
+
+
+.leftmenu li {
+    list-style: none outside none;
+    margin: 3px 0;
+    padding: 5px;
+    width: 94px;
+}
+
+.leftmenu li a { text-decoration: none; }
+
+.leftmenu li:hover { text-decoration: underline; }
+
+#livesearch {
+	width: 200px;
+	background: #F3F3F3;
+	position: absolute;
+}
+
+#livesearch ul li {
+	list-style: none;
+	padding: 0;
+	margin: 0;
+	cursor: pointer;
+}
+
+#livesearch > ul {
+    margin: 10px;
+    padding: 0;
+}
+
+#livesearch ul li:hover {
+	color: #3C8DBC;
+}
+
+ul > li {
+    float:left;
+    display:inline-block;
+    position:relative;
+    font-size:19px;
+}
+ 
+ul > li > a {
+    text-shadow:0px 1px 0px rgba(0,0,0,0.4);
+}
+
+li:hover .sub-menu {
+    z-index:1;
+    opacity:1;
+}
+ 
+.sub-menu {
+    width:160%;
+    padding:5px 0px;
+    position:absolute;
+    top:100%;
+    left:0px;
+    z-index:-1;
+    opacity:0;
+    transition:opacity linear 0.15s;
+    box-shadow:0px 2px 3px rgba(0,0,0,0.2);
+    background:#2e2728;
+}
+ 
+.sub-menu li {
+    display:block;
+}
+ 
+.sub-menu li a {
+    display:block;
+}

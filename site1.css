@@ -1,0 +1,292 @@
+body {
+	margin: 0 auto;
+	padding: 0 auto;
+    font-size: 0.875em;
+	font-family: 'Open Sans', sans-serif;
+	color:#333;
+              /*background:#f3f3f3*/
+}
+
+.container {
+background:#fff;
+    margin: 0 auto;
+    width: 100%;
+}
+.wrap {
+    width: 90%;
+    margin: 0 auto;
+}
+.wrap .logo {
+    float: left;
+}
+.wrap .nav-icon
+{
+    float:right;
+
+}
+
+header {
+	width: 100%;
+    margin: 0 auto;
+	float: left;
+    background: linear-gradient(#e6e6e6,#fcfcfc) repeat scroll 0 0 rgba(0, 0, 0, 0);
+    
+}
+
+.header
+{
+  background: url(../images/border.png) repeat-x 0px 0px #FFF;
+    padding: 1.2em 0 1.2em;
+    border-bottom: 1px solid rgba(214, 213, 212, 0.64);
+    width: 100%;
+    margin: auto 0px;
+    height: 38px;
+    background: #fff;
+    z-index: 1000;
+    -webkit-box-shadow: 0px 0px 8px 2px #888;
+       -moz-box-shadow: 0px 0px 8px 2px #888;
+            box-shadow: 0px 0px 8px 2px #888;  
+}
+.menu ul {
+    display:inline-block;
+}
+.menu li {
+    margin:0px 30px 0px 0px;
+    float:left;
+    list-style:none;
+}
+ 
+.menu li:last-child {
+    margin-right:0px;
+}
+.content {
+	width: 100%;
+    margin: 0 auto;
+	float: left;
+}
+
+.header-content {
+   width: 1024px;
+margin: 0 auto;
+}
+
+.footer-content {
+    width: 1024px;
+    margin: 0 auto;
+}
+
+header .steps { float: right; margin-top: 25px}
+
+header .logo { float: left; }
+
+.indexform {
+	width: 1024px;
+	margin: 0 auto;
+}
+
+.indexform table {
+	margin: 20px auto;
+	background: linear-gradient(#fcfcfc, #e6e6e6) repeat scroll 0 0 rgba(0, 0, 0, 0);
+    padding: 5px;
+    border-radius: 3px;
+}
+
+.indexform table .itab {
+	width: 50%;
+	height: 30px;
+	cursor: pointer;
+	font-size: 18px;
+	text-align: center;
+	border: 1px solid red;
+    box-shadow: 2px 3px 2px #dedede;
+}
+
+.indexform table .itabsmall {
+	width: 10%;
+	cursor: pointer;
+	font-size: 18px;
+	text-align: center;
+	border: 1px solid #333;
+    background: #eee;
+    box-shadow: 2px 3px 2px #dedede;
+}
+
+.indexform table .active {
+	border: 1px solid #333;
+    box-shadow: 2px 3px 2px #dedede;
+	color: #000;
+}
+
+.indexform table .inactive {
+	border: 1px solid #ccc;
+    box-shadow: none;
+	color: #666;
+}
+
+.content-wrapper {
+	width: 1024px;
+	margin: 0 auto;
+	background: linear-gradient(#fff, #eee) repeat scroll 0 0 rgba(0, 0, 0, 0);
+    /*background: white;*/
+	border-radius: 5px;
+	padding: 10px 0;
+	overflow: hidden;
+    /*border:solid 1px #999;
+    box-shadow:2px 2px 2px #999;*/
+}
+
+.right-content {
+    float: right;
+    width: 715px;
+}
+
+.left-content {
+    float: left;
+}
+
+.listmovies { 
+	width: 100%;
+	border-collapse: collapse;
+	text-align: center;
+}
+
+.left-content > table {
+    width: 279px;
+}
+
+.left-content tr {
+    vertical-align: top;
+}
+
+.listmovie-wrapper {
+	padding: 5px;
+	margin: 5px;
+  /*  border: 1px solid #999;*/
+    border-radius: 6px;
+}
+
+.listmovie-wrapper a{
+	color: green;
+}
+
+.show-booking {
+	margin: 10px;
+    padding: 10px;
+	float: left;
+	border: 1px solid #999;
+    border-radius: 5px;
+    box-shadow: 2px 2px 2px #999;
+}
+
+.show-booking > table {
+	margin: 15px 0;
+	float: left;
+              margin-top:-10px;
+}
+
+.seat-wrapper {
+	width: 1024px;
+	margin: 0 auto;
+	float: left;
+}
+
+.seat-arrangement {
+	margin: 0 0 0 45px
+	float:left;
+cursor:pointer;
+cursor:hand;
+}
+
+.buy { cursor: pointer; }
+
+#sign_up {
+    background: none repeat scroll 0 0 #fff;
+    border: 1px solid #666;
+    border-radius: 5px;
+    padding: 20px;
+    width: 300px;
+}
+
+
+#sign_up > span {
+    display: block;
+    float: right;
+	cursor: pointer;
+    font-size: 18px;
+    position: relative;
+    right: 0;
+    top: -19px;
+}
+
+.terms {
+    float: right;
+    margin: 0 200px 0 0;
+    text-align: justify;
+    width: 500px;
+}
+
+#pay { cursor: pointer; }
+
+#bookform > span {
+    display: block;
+    float: right;
+}
+
+.seat-arrangement > table {
+    margin: 0 auto;
+}
+
+.cart > table {
+    background: #fff;
+}
+
+.cart {
+    box-shadow: 2px 2px 2px #666;
+    right: 169px;
+    position: fixed;
+    top: 320px;
+}
+
+#printform input {
+    margin: 10px;
+    padding: 3px;
+}
+
+#printform {
+    background: none repeat scroll 0 0 #fff;
+    border: 1px solid #666;
+    border-radius: 11px;
+    box-shadow: 2px 2px 2px #000;
+    padding: 10px;
+}
+
+#printform > span {
+    display: block;
+    float: right;
+    font-size: 16px;
+    margin: 0 13px 0 0;
+}
+.ticket
+{
+	width:500px;
+	border:solid 1px #999;
+	font-size: 20px;
+	margin: 0px auto;
+}
+#guest
+{
+display:none;
+}
+
+#submit
+{
+	 background: none repeat scroll 0 0 #c00029;
+    border: 1px solid #c00029;
+    border-radius: 4px;
+    color: white;
+    font-size: 15px;
+    padding: 3px;
+    text-decoration: none;
+    width: 150px;
+    margin-left: 10px;
+}

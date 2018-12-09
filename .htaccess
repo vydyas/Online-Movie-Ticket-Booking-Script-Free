@@ -1,0 +1,19 @@
+RewriteEngine On
+RewriteCond %{HTTP_USER_AGENT} libwww-perl.* 
+RewriteRule .* – [F,L]
+
+RewriteEngine on
+RewriteRule ^movies/([a-zA-Z0-9_-]+)$ location.php?url=$1
+RewriteRule ^movies/([a-zA-Z0-9_-]+)/$ location.php?url=$1
+
+RewriteEngine on
+RewriteRule ^([a-zA-Z0-9-/]+)-movies$ location.php?url=$1
+RewriteRule ^([a-zA-Z0-9-/]+)-movies/$ location.php?url=$1
+
+RewriteEngine on
+RewriteRule ^([a-zA-Z0-9-/]+).html$ bookshow.php?location=$1
+RewriteRule ^([a-zA-Z0-9-/]+).html/$ bookshow.php?location=$1
+
+
+
+
