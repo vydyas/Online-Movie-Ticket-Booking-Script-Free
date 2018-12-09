@@ -4,7 +4,12 @@ Online Movie Ticket Booking System (Theatre booking system) is a website to prov
 | Feature       | Status        |
 | ------------- | ------------- |
 | Admin, Agent, User Login  | Yes  |
-
+| Adding Multiple Theatres  | Yes  |
+| Adding Dynamic Seating for theatres  | Yes  |
+| Agent Recharge System  | Yes  |
+| Payment Gateway Integration  | Yes  |
+| SMS Integration  | Yes  |
+| SEO Friendly  | Yes  |
 
 # Online movie ticket booking script #giveaway
 
