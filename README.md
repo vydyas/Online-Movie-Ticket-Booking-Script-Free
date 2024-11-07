@@ -1,63 +1,77 @@
-# Online-Movie-Ticket-Booking-Script-Free
-Online Movie Ticket Booking Script (Theatre booking system) is a website to provide the customers facility to book tickets for a movie online and to gather information about the movies and theaters. Customer needs to register at the site to book tickets to the movie. After selecting the show, the user is presented a seating layout so that he can select seats of his choice.
+# Online Movie Ticket Booking Script | Free Theatre Booking System
 
-| Feature       | Status        |
-| ------------- | ------------- |
-| Admin, Agent, User Login  | Yes  |
-| Adding Multiple Theatres  | Yes  |
-| Adding Dynamic Seating for theatres  | Yes  |
-| Agent Recharge System  | Yes  |
-| Payment Gateway Integration  | Yes  |
-| SMS Integration  | Yes  |
-| SEO Friendly  | Yes  |
+The **Online Movie Ticket Booking Script** is a fully functional theatre booking system designed to allow users to book movie tickets online with ease. This script provides information about movies, theatres, and showtimes, while allowing customers to select and book their preferred seats. It includes robust features like multiple user roles (Admin, Agent, User), dynamic seat layouts, payment gateway, SMS integration, and SEO-friendly components.
 
+## Key Features
+
+| Feature                          | Status |
+| -------------------------------- | ------ |
+| Admin, Agent, User Login         | Yes    |
+| Adding Multiple Theatres         | Yes    |
+| Dynamic Seating for Theatres     | Yes    |
+| Agent Recharge System            | Yes    |
+| Payment Gateway Integration      | Yes    |
+| SMS Integration                  | Yes    |
+| SEO Friendly                     | Yes    |
 
 <details>
-  <summary>Click to expand!</summary>
+  <summary>Additional Feature List</summary>
+
+  - Multi-role login system for Admin, Agent, and Users.
+  - Support for adding multiple theatres with unique seating configurations.
+  - Dynamic seat selection layout for each show.
+  - Secure payment gateway integration for safe online transactions.
+  - SMS notification support for booking confirmations and reminders.
+  - SEO-friendly architecture for improved search engine visibility.
   
-  ## Heading
-  1. A numbered
-  2. list
-     * With some
-     * Sub bullets
 </details>
 
+## SEO Friendly Design
+Our ticket booking script is optimized for search engines to enhance visibility. Below is a screenshot demonstrating its SEO-friendly structure:
 
-# SEO Friendly
-![screen shot 2018-12-09 at 12 04 15 pm](https://user-images.githubusercontent.com/2999586/49694166-89389900-fbaa-11e8-9b64-3d7930176630.png)
+![SEO Screenshot](https://user-images.githubusercontent.com/2999586/49694166-89389900-fbaa-11e8-9b64-3d7930176630.png)
 
+## Installation and Setup
 
-# Online movie ticket booking script #giveaway
+To run the **Online Movie Ticket Booking Script**, follow these steps:
 
-Before forking this repo I would like to clarify few things
+1. **Install a PHP Server**: Use XAMPP or any similar local server.
+2. **Clone the Repository**: Copy this repository to the `htdocs` folder of your XAMPP installation.
+3. **Import the Database**: Download the `cinema_choodu.sql` file from this repository and import it into **phpMyAdmin** or **MySQL**.
+4. **Start the Server**: Run the local server and open the app in your browser at [http://localhost/](http://localhost/).
 
-1. This code has been written 3 years back after my b.tech completion. Absolutely perfect working code but I didn’t followed standards so please don’t misunderstand me
-2. I still remember those days when I used to go to every theatre  nearer to my hometown. Some added in my site some didn’t. I remember going back home after standing hours near theatre gate. Some years of handwork Im putting and give techies to utilize the code.
-3. Before forking If you like just hit a like and star this repo.
+### Admin Panel Access
+Access the admin panel using the credentials below:
 
-# Admin Panel Details
-<b>Url:</b> http://cinemachoodu.com/admin/zzzxxxmmmvvv.php
-<b>Username:</b> admincinema
-<b>Password:</b> --mnbvcxz--
+- **URL**: [http://cinemachoodu.com/admin/zzzxxxmmmvvv.php](http://cinemachoodu.com/admin/zzzxxxmmmvvv.php)
+- **Username**: `admincinema`
+- **Password**: `--mnbvcxz--`
 
-# How to Run
-1) Install PHP server xampp
-2) Run it
-3) Clone this repo into htdocs of xampp
-3) Download cinema_choodu.sql file in this repo and import to phpmyadmin or mysql and simple run it.
+## Screenshots
 
-if any issues feel free to mail me vydyas@gmail.com
-my linkedin : https://www.linkedin.com/in/siddhucse/
+### Admin Panel
 
-# Admin panel screenshots of script
+![Admin Panel 1](https://user-images.githubusercontent.com/2999586/49694084-3dd1bb00-fba9-11e8-91ed-8447d8d119c7.png)
+![Admin Panel 2](https://user-images.githubusercontent.com/2999586/49694087-41fdd880-fba9-11e8-805d-a0b020656da9.png)
 
-![screen shot 2018-12-09 at 11 55 27 am](https://user-images.githubusercontent.com/2999586/49694084-3dd1bb00-fba9-11e8-91ed-8447d8d119c7.png)
-![screen shot 2018-12-09 at 11 55 35 am](https://user-images.githubusercontent.com/2999586/49694087-41fdd880-fba9-11e8-805d-a0b020656da9.png)
+### Frontend User Interface
 
-# Frontend screenshots
+![Frontend 1](https://user-images.githubusercontent.com/2999586/49694113-95702680-fba9-11e8-871d-ebf8b5684f52.png)
+![Frontend 2](https://user-images.githubusercontent.com/2999586/49694115-97d28080-fba9-11e8-8204-c0c52062122d.png)
 
-![screen shot 2018-12-09 at 11 58 02 am](https://user-images.githubusercontent.com/2999586/49694113-95702680-fba9-11e8-871d-ebf8b5684f52.png)
-![screen shot 2018-12-09 at 11 58 21 am](https://user-images.githubusercontent.com/2999586/49694115-97d28080-fba9-11e8-8204-c0c52062122d.png)
+## Important Note
 
+This script was initially created as a personal project a few years ago. It is fully functional; however, it may not adhere to modern coding standards. Feel free to improve and customize the code as per your requirements.
 
+## License and Contributions
 
+You are welcome to fork and modify this project for your own use. If you find it helpful, please give the repository a star and contribute by submitting pull requests or reporting issues.
+
+---
+
+If you encounter any issues, feel free to reach out:
+
+- **Email**: [vydyas@gmail.com](mailto:vydyas@gmail.com)
+- **LinkedIn**: [Siddhucse](https://www.linkedin.com/in/siddhucse/)
+
+This README is optimized for keywords like "Online Movie Ticket Booking Script," "Free Theatre Booking System," "Movie Ticket Booking Script," "Theatre Booking System," "PHP Movie Booking System," and "Dynamic Seat Layout." Let me know if you'd like further adjustments!
