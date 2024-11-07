@@ -1,21 +1,21 @@
-# Online Movie Ticket Booking Script | Free Theatre Booking System
+# Online Movie Ticket Booking Script | Free Theatre Booking System 🎬🍿
 
 The **Online Movie Ticket Booking Script** is a fully functional theatre booking system designed to allow users to book movie tickets online with ease. This script provides information about movies, theatres, and showtimes, while allowing customers to select and book their preferred seats. It includes robust features like multiple user roles (Admin, Agent, User), dynamic seat layouts, payment gateway, SMS integration, and SEO-friendly components.
 
-## Key Features
+## Key Features 🔑
 
 | Feature                          | Status |
 | -------------------------------- | ------ |
-| Admin, Agent, User Login         | Yes    |
-| Adding Multiple Theatres         | Yes    |
-| Dynamic Seating for Theatres     | Yes    |
-| Agent Recharge System            | Yes    |
-| Payment Gateway Integration      | Yes    |
-| SMS Integration                  | Yes    |
-| SEO Friendly                     | Yes    |
+| Admin, Agent, User Login         | ✅     |
+| Adding Multiple Theatres         | ✅     |
+| Dynamic Seating for Theatres     | ✅     |
+| Agent Recharge System            | ✅     |
+| Payment Gateway Integration      | ✅     |
+| SMS Integration                  | ✅     |
+| SEO Friendly                     | ✅     |
 
 <details>
-  <summary>Additional Feature List</summary>
+  <summary>Additional Feature List 📋</summary>
 
   - Multi-role login system for Admin, Agent, and Users.
   - Support for adding multiple theatres with unique seating configurations.
@@ -26,12 +26,12 @@ The **Online Movie Ticket Booking Script** is a fully functional theatre booking
   
 </details>
 
-## SEO Friendly Design
+## SEO Friendly Design 🌐
 Our ticket booking script is optimized for search engines to enhance visibility. Below is a screenshot demonstrating its SEO-friendly structure:
 
 ![SEO Screenshot](https://user-images.githubusercontent.com/2999586/49694166-89389900-fbaa-11e8-9b64-3d7930176630.png)
 
-## Installation and Setup
+## Installation and Setup 🛠️
 
 To run the **Online Movie Ticket Booking Script**, follow these steps:
 
@@ -40,14 +40,14 @@ To run the **Online Movie Ticket Booking Script**, follow these steps:
 3. **Import the Database**: Download the `cinema_choodu.sql` file from this repository and import it into **phpMyAdmin** or **MySQL**.
 4. **Start the Server**: Run the local server and open the app in your browser at [http://localhost/](http://localhost/).
 
-### Admin Panel Access
+### Admin Panel Access 🔑
 Access the admin panel using the credentials below:
 
 - **URL**: [http://cinemachoodu.com/admin/zzzxxxmmmvvv.php](http://cinemachoodu.com/admin/zzzxxxmmmvvv.php)
 - **Username**: `admincinema`
 - **Password**: `--mnbvcxz--`
 
-## Screenshots
+## Screenshots 📸
 
 ### Admin Panel
 
@@ -59,13 +59,21 @@ Access the admin panel using the credentials below:
 ![Frontend 1](https://user-images.githubusercontent.com/2999586/49694113-95702680-fba9-11e8-871d-ebf8b5684f52.png)
 ![Frontend 2](https://user-images.githubusercontent.com/2999586/49694115-97d28080-fba9-11e8-8204-c0c52062122d.png)
 
-## Important Note
+## Important Note ⚠️
 
 This script was initially created as a personal project a few years ago. It is fully functional; however, it may not adhere to modern coding standards. Feel free to improve and customize the code as per your requirements.
 
-## License and Contributions
+## Interesting Side Projects 💡
 
-You are welcome to fork and modify this project for your own use. If you find it helpful, please give the repository a star and contribute by submitting pull requests or reporting issues.
+Here are a few other projects that might be of interest:
+
+- [YouTube Thumbnail Preview](https://youtube-thumbnail-preview.vercel.app/): A tool to test YouTube thumbnail visibility before publishing. 🎥
+- [YouTube Thumbnail Creator](https://youtube-thumbnail-creator.vercel.app/): Create optimized YouTube thumbnails with ease. ✨
+- [YouTube Thumbnail Preview Stress Test](https://youtube-thumbnail-preview.vercel.app/stress): Test how your thumbnails look under stress conditions. 💥
+
+## License and Contributions 📝
+
+You are welcome to fork and modify this project for your own use. If you find it helpful, please give the repository a star ⭐ and contribute by submitting pull requests or reporting issues.
 
 ---
 
